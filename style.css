@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+h1{
+    background-color: #96c9da;
+  text-align:center;
+    font-weight:bolder;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input{
+    font-family: 'Poppins', sans-serif;
+}
+
+.section{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #96c9da;
+}
+
+.form-section{
+    position: absolute;
+    width: 100%;
+    height: 400%;
+    top: 0;
+    left: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #181818;
+}
+
+.Inputs{
+    max-width: 500px;
+    width: 100%;
+    height: 90px;
+    border-color: #0026bf;
+    margin: 10px  0;
+    border-radius: 55px;
+    display:grid;
+    grid-template-column:15% 85%;
+    padding:0 8.4rem;
+    position:relative;
+}
+
+.Inputs i{
+    text-align: center;
+    line-height: 55px;
+    color: #181818;
+    font-size: 1.5rem;}
+
+.Inputs input{
+    background: white;
+    outline: none;
+    border: 30px;
+    border-radius: 90px;
+    line-height: 4;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.Inputs:placeholder-shown{
+    color: #141415;
+    font-weight: 500;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: #7991cc;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color: #9900ff;
+}
+
+.Social Icon{
+    height: 46px;
+    width: 46px;
+    border: 1px solid #217d99;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #217D99FF;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.Social-text
+{
+    color: #181818;
+    font-weight:bolder;
+
+}
+.Social-Media{
+    display:flex;
+}
+
+.Social Icon:hover{
+    color: #00bfa6;
+    border-color: #00bfa6;
+    text-underline: none;
+}
+
+.Social Icon-g:hover{
+    color: #a100ff;
+    border-color: none;
+}
+.checkbox{
+    color:black;
+    font-weight: bolder;
+}
